@@ -1,4 +1,4 @@
-FROM python:3.8.0-buster
+FROM python:3.8.9-buster
 WORKDIR /pastebin_scraper
 
 RUN apt-get -y update && \
